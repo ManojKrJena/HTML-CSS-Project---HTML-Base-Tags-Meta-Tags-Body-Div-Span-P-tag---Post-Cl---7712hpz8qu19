@@ -1,79 +1,86 @@
-*{
-  
+* {
+
     box-sizing: border-box;
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins', sans-serif;
+    margin: 0 auto;
 }
 
 
-.container
-{
-    width: 1511px;
-    background:url(Beach.jfif) ;
-  
-   display: flex;
+.container {
+    background: url(Beach.jfif);
+    width: 100vw;
+    display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
-   
-    
+
+
 
 }
-.profile
-{ height: 8%;
+
+.profile {
+    height: 8%;
     width: 70%;
     max-width: 200px;
     background: rgb(24, 23, 23);
 
     text-align: center;
-    padding: 30px,20px;
+    padding: 30px, 20px;
     margin-bottom: 6cm;
-    box-shadow: 0,30px,40px #ededff(0,0,0,0.2);
+    box-shadow: 0, 30px, 40px #ededff(0, 0, 0, 0.2);
     border-radius: 5px;
-   
-   color: #fff;
+
+    color: #fff;
 }
-.top-icon
-{
+
+.top-icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* color: aliceblue; */
     width: 100%;
-    padding-top:5%;
-    padding-left:5%;
+    padding-top: 5%;
+    padding-left: 5%;
 }
-.fa-ellipsis-v
-{
+
+.fa-ellipsis-v {
     padding-left: 4cm;
 }
-.user-img
-{
+
+.user-img {
     height: 300px;
     width: 200px;
     padding-top: 0.3cm;
     opacity: 70%;
-    
-}
-.icon-bar {
-   padding-top: -3%;
-    width: 100%; 
-    background-color: rgb(15, 14, 14); 
-    overflow: auto; 
-  }
 
-  .icon-bar a {
-    float: left; 
+}
+
+.icon-bar {
+    padding-top: -3%;
+    width: 100%;
+    background-color: rgb(15, 14, 14);
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
     text-align: center;
-    width: 20%; 
-    padding: 0.5px 0; 
-    transition: all 0.3s ease; 
-    color: white; 
-    font-size: 20px; 
-  }
-  .icon-bar a:hover {
-    background-color: #000; 
-  }
-  
-  .active {
-    background-color: #8bbef0; 
-  }
+    width: 20%;
+    padding: 0.5px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+    color: lightslategrey;
+}
+
+.active {
+    background-color: #8bbef0;
+}
+
+a:hover {
+    color: red;
+}
