@@ -1,88 +1,47 @@
-* {
-
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+*{
     margin: 0;
-}
-
-
-.container {
+  }
+  .container{
     width: 100vw;
-    background-image: url("jeremy-bishop-rqWoB4LFgmc-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
-
-
-
-}
-
-.profile {
-    height: 8%;
-    width: 70%;
-    max-width: 200px;
-    background: rgb(24, 23, 23);
-
-    text-align: center;
-    padding: 30px, 20px;
-    margin-bottom: 6cm;
-    box-shadow: 0, 30px, 40px #ededff(0, 0, 0, 0.2);
-    border-radius: 5px;
-
-    color: #fff;
-}
-
-.top-icon {
     display: flex;
+    position: relative;
+    background-color: purple;
+  }
+  .profile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    background-image: url("https://akm-img-a-in.tosshub.com/businesstoday/images/story/201808/home-loan_660_020117053409_030917101300_080118025657.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid white;
+    border-radius: 10px;
+  }
+  .icon-bar{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-between;
-    /* color: aliceblue; */
-    width: 100%;
-    padding-top: 5%;
-    padding-left: 5%;
-}
-
-.fa-ellipsis-v {
-    padding-left: 4cm;
-}
-
-.user-img {
-    height: 300px;
-    width: 200px;
-    padding-top: 0.3cm;
-    opacity: 70%;
-
-}
-
-.icon-bar {
-    padding-top: -3%;
-    width: 100%;
-    background-color: rgb(15, 14, 14);
-    overflow: auto;
-}
-
-.icon-bar a {
-    float: left;
-    text-align: center;
-    width: 20%;
-    padding: 0.5px 0;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-}
-
-.icon-bar a:hover {
-    background-color: #000;
-    color: lightslategrey;
-}
-
-.active {
-    background-color: #8bbef0;
-}
-
-a:hover {
-    color: red;
-}
+    background-color: white;
+  }
+  .icon-bar a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .9rem;
+  }
+  .fa{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  .active{
+    color: purple !important;
+  }
